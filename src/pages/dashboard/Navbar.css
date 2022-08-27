@@ -1,0 +1,21 @@
+.nav{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: inline;
+    margin: 15px;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.active{
+    color: blue;
+    font-weight: bold;
+    border-bottom: 2px solid;
+}

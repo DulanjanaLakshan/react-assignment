@@ -1,0 +1,55 @@
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_div{
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 10px;
+}
+.user_icon{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user_icon h2{
+    font-weight: bold;
+}
+.icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    background-image: url('../../assets/user02.png');
+    background-position: center;
+    background-size: cover;
+}
+.form_panle{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
